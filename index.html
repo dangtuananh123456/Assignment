@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="decoration.css">
+</head>
+<body>
+    <div class="chessboard">
+        <!-- Tạo bàn cờ và quân cờ -->
+        <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a1">
+                <img id = "black_castle_1" src="iconChess/blackCastle.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black castle">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a2">
+                <img id = "black_knight_2" src="iconChess/blackKnight.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black knight">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a3">
+                <img id = "black_bishop_1" src="iconChess/blackBishop.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black bishop">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a4">
+                <img id = "black_king" src="iconChess/blackKing.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black king">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a5">
+                <img id = "black_qeen" src="iconChess/blackQeen.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black queen">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a6">
+                <img id = "black_bishop_2" src="iconChess/blackBishop.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black bishop">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a7">
+                <img id = "black_knight_2" src="iconChess/blackKnight.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black knight">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="a8">
+                <img id = "black_castle_2" src="iconChess/blackCastle.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black castle">
+            </div>
+        </div>
+        <!--  -->
+        <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b1">
+                <img id = "black_pawn_1" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b2">
+                <img id = "black_pawn_2" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b3">
+                <img id = "black_pawn_3" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b4">
+                <img id = "black_pawn_4" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b5">
+                <img id = "black_pawn_5" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b6">
+                <img id = "black_pawn_6" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b7">
+                <img id = "black_pawn_7" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="b8">
+                <img id = "black_pawn_8" src="iconChess/blackPawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="black pawn">
+            </div>
+        </div>
+        <!--  -->
+        <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c1"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c2"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c3"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c4"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c5"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c6"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c7"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="c8"></div>
+        </div>
+        <!--  -->
+    <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d1"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d2"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d3"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d4"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d5"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d6"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d7"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="d8"></div>
+       </div>
+        <!--  -->
+        <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e1"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e2"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e3"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e4"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e5"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e6"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e7"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="e8"></div>
+        </div>
+        <!--  -->
+        <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f1"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f2"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f3"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f4"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f5"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f6"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f7"></div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="f8"></div>
+        </div>
+        <!--  -->
+        <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g1">
+                <img id = "white_pawn_1" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g2">
+                <img id = "white_pawn_2" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g3">
+                <img id = "white_pawn_3" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g4">
+                <img id = "white_pawn_4" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g5">
+                <img id = "white_pawn_5" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g6">
+                <img id = "white_pawn_6" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g7">
+                <img id = "white_pawn_7" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="g8">
+                <img id = "white_pawn_8" src="iconChess/whitePawn.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="while pawn" class = "img_modify">
+            </div>
+        </div>
+        <!--  -->
+        <div class = "row__manager">
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h1">
+                <img id = "white_castle_1" src="iconChess/whiteCastle.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white castle" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h2">
+                <img id = "white_knight_1" src="iconChess/whiteKnight.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white knight" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h3">
+                <img id = "white_bishop_1" src="iconChess/whiteBishop.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white bishop" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h4">
+                <img id = "white_king" src="iconChess/whiteKing.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white king" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h5">
+                <img id = "white_qeen" src="iconChess/whiteQeen.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white queen" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h6">
+                <img id = "white_bishop_2" src="iconChess/whiteBishop.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white bishop" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h7">
+                <img id = "white_knight_2" src="iconChess/whiteKnight.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white knight" class = "img_modify">
+            </div>
+            <div class="square" ondrop = "drop(event)" ondragover = "allowDrop(event)" id="h8">
+                <img id = "white_castle_2" src="iconChess/whiteCastle.png" draggable="true" ondragstart="dragStart(event)"
+                ondrag = "dragging(event)" alt="white castle" class = "img_modify">
+            </div>
+        </div>
+
+        <!-- JavaScript để di chuyển quân cờ -->
+        <script src = "event.js"> </script>
+    </div>
+</body>
+</html>
+
