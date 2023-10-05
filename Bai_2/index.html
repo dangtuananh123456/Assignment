@@ -1,1 +1,65 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="bai2.css">
+    </head>
+    <body>
+        <header class = header>
+            <h1 class = "header__title">BÉ TẬP TÍNH</h1>
+        </header>
+        <div class = "display">
+            <div class = "display__modify">
+                <div class = "display__modify--items">
+                    <label class = "align_1" for="">Số thứ nhất</label>
+                    <input type="text" id = "input1">
+                </div>
+                <div class = "display__modify--items">
+                    <label class = "align_2" for="">Số thứ hai</label>
+                    <input type="text" id = "input2">
+                </div>
+                <div class = "display__modify--items">
+                    <label class = "align_3" for="">Kết quả</label>
+                    <input type="text" id = "result">
+                </div>
+                <div class = "display__modify--items">
+                    <label class = "align_4" for="">Thông báo</label>
+                    <span id = "notify"></span>
+                </div>
+            </div>
+            <div class = "display__modify">
+                <form class = "display__form">
+                    <div>
+                        <input type="radio" id = "add" value = "Add" name = "calculate">
+                        <label for="radio1">Cộng</label>
+                    </div>
+                    <div>
+                        <input type="radio" id = "minus" value = "Minus" name = "calculate">
+                        <label for="radio2">Trừ</label>
+                    </div>
+                    <div>
+                        <input type="radio" id = "times" value = "Times" name = "calculate">
+                        <label for="radio3">Nhân</label>
+                    </div>
+                    <div>
+                        <input type="radio" id = "devide" value = "Divide" name = "calculate">
+                        <label for="radio4">Chia</label>
+                    </div>
+                </form>
+                <button class = "button__modify"  id = "calculate">
+                    Tính
+                </button>
+
+            </div>
+        </div>
+        <script src="bai2.js">
+
+        </script>
+    </body>
+    </html>
+
+
+
     
